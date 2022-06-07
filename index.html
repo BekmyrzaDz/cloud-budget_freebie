@@ -7,11 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>CloudBudget Freebie</title>
   <link rel="stylesheet" href="css/reset.css">
-  <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Lato&family=PT+Serif:wght@700&family=Roboto:wght@400;500;700&display=swap"
-    rel="stylesheet"> -->
   <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -22,35 +17,52 @@
 
         <div class="header__top">
           <div class="header__logo">
-            <img src="../cloud__budget_freebie/icons/Group 3.svg" alt="">
+            <a class="header__logo_link" href="#">
+              <img src="../cloud__budget_freebie/icons/Group 3.svg" alt="">
+            </a>
           </div>
-          <nav class="menu">
-            <ul class="menu__list">
-              <a class="menu__list_link" href="#">
-                <li class="menu__list_item">OVERVIEW</li>
-              </a>
-              <a class="menu__list_link" href="#">
-                <li class="menu__list_item">FEATURES</li>
-              </a>
-              <a class="menu__list_link" href="#">
-                <li class="menu__list_item">TCHNOLOGY</li>
-              </a>
-              <a class="menu__list_link" href="#">
-                <li class="menu__list_item">CONTACT</li>
-              </a>
-              <a class="menu__list_link" href="#">
-                <li class="menu__list_item">SIGN UP</li>
-              </a>
-            </ul>
-          </nav>
-          <div class="header__btn">
-            <div class="header__btn_language">
-              <img class="header__btn_language-item"
-                src="../cloud__budget_freebie/icons/emojione-flag-for-flag-united-states.svg" alt="">
-              <span class="header__btn_language-item">EN</span>
-              <img class="header__btn_language-item" src="../cloud__budget_freebie/icons/Vector.svg" alt="">
+          <div class="header__top_wrapper">
+            <nav class="menu">
+              <button class="menu__btn">
+                <span class="row"></span>
+              </button>
+              <ul class="menu__list">
+                <li class="menu__list_item">
+                  <a class="menu__list_link" href="#">
+                    OVERVIEW
+                  </a>
+                </li>
+                <li class="menu__list_item">
+                  <a class="menu__list_link" href="#">
+                    FEATURES
+                  </a>
+                </li>
+                <li class="menu__list_item">
+                  <a class="menu__list_link" href="#">
+                    TCHNOLOGY
+                  </a>
+                </li>
+                <li class="menu__list_item">
+                  <a class="menu__list_link" href="#">
+                    CONTACT
+                  </a>
+                </li>
+                <li class="menu__list_item">
+                  <a class="menu__list_link" href="#">
+                    SIGN UP
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <div class="header__btn">
+              <div class="header__btn_language">
+                <img class="header__btn_language-item"
+                  src="../cloud__budget_freebie/icons/emojione-flag-for-flag-united-states.svg" alt="">
+                <span class="header__btn_language-item">EN</span>
+                <img class="header__btn_language-item" src="../cloud__budget_freebie/icons/Vector.svg" alt="">
+              </div>
+              <button class="header__btn_login">LOGIN</button>
             </div>
-            <button class="header__btn_login">LOGIN</button>
           </div>
         </div>
 
@@ -87,8 +99,8 @@
             </div>
           </div>
           <div class="section__video_vid">
-            <img class="section__video_play-button" src="/icons/Play Button.svg" alt="">
-            <img src="/img/Video_bg.jpg" alt="">
+            <img class="section__video_play-button" src="icons/Play Button.svg" alt="">
+            <img class="section__video_play-img" src="img/Video_bg.jpg" alt="">
           </div>
         </div>
       </div>
@@ -148,7 +160,7 @@
               <div class="section-features__content_tech-num">
                 <span>01</span>
                 <div class="section-features__content_tech-number number-1">
-                  <img src="/icons/Frame 3.svg" alt="">
+                  <img src="icons/Frame 3.svg" alt="">
                   <div class="section-features__content_tech-descr">
                     <h5>Cloud Storage</h5>
                     <p>Access your account from anywhere in the world on any device</p>
@@ -158,7 +170,7 @@
               <div class="section-features__content_tech-num">
                 <span>02</span>
                 <div class="section-features__content_tech-number number-2">
-                  <img src="/icons/Frame 4.svg" alt="">
+                  <img src="icons/Frame 4.svg" alt="">
                   <div class="section-features__content_tech-descr">
                     <h5>Secure</h5>
                     <p>All your information is stored on secure cloud servers</p>
@@ -168,7 +180,7 @@
               <div class="section-features__content_tech-num">
                 <span>03</span>
                 <div class="section-features__content_tech-number number-3">
-                  <img src="/icons/Frame 6.svg" alt="">
+                  <img src="icons/Frame 6.svg" alt="">
                   <div class="section-features__content_tech-descr">
                     <h5>PDF Download</h5>
                     <p>Download any of your reports in PDF format</p>
@@ -178,7 +190,7 @@
               <div class="section-features__content_tech-num">
                 <span>04</span>
                 <div class="section-features__content_tech-number number-4">
-                  <img src="/icons/Frame 5.svg" alt="">
+                  <img src="icons/Frame 5.svg" alt="">
                   <div class="section-features__content_tech-descr">
                     <h5>CSV Download</h5>
                     <p>All your information is stored on secure cloud servers</p>
@@ -203,15 +215,15 @@
                 habits so you can easily spot and cut any unnecessary expenses. Simply join today to get started!
               </p>
               <figure class="section-app-download__link">
-                <img src="/icons/ion-logo-google-playstore.svg" alt="">
-                <img src="/icons/ion-logo-apple-appstore.svg" alt="">
-                <img src="/icons/simple-icons_windows.svg" alt="">
+                <img src="icons/ion-logo-google-playstore.svg" alt="">
+                <img src="icons/ion-logo-apple-appstore.svg" alt="">
+                <img src="icons/simple-icons_windows.svg" alt="">
               </figure>
             </div>
             <div class="section-app-download__slider">
-              <img class="slider_img-1" src="/img/slider_bg-1.jpg" alt="">
-              <img class="slider_img-2" src="/img/slider_bg-2.jpg" alt="">
-              <img class="slider_img-3" src="/img/slider_bg-3.jpg" alt="">
+              <img class="slider_img-1" src="img/slider_bg-1.jpg" alt="">
+              <img class="slider_img-2 img-back" src="img/slider_bg-2.jpg" alt="">
+              <img class="slider_img-3 img-back" src="img/slider_bg-3.jpg" alt="">
             </div>
           </div>
         </div>
@@ -230,24 +242,24 @@
             </p>
           </div>
           <form class="contact__form" action="">
-            <div class="contact__form_inner">
-              <div class="contact__fn-ln">
-                <input class="contact__form_item" placeholder="First name" type="text">
-                <input class="contact__form_item" placeholder="Last name" type="text">
-              </div>
-              <input class="contact__form_item" placeholder="Phone number" type="tel">
-              <div class="contact__form_select-wrapper">
-                <select class="contact__form_item contact__select">
-                  <option value="">Select service</option>
-                  <option value="1">Синий</option>
-                  <option value="2">Зеленый</option>
-                  <option value="3">Желтый</option>
-                  <option value="4">Красный</option>
-                  <option value="5">Оранжевый</option>
-                  <option value="6">Черный</option>
-                </select>
-              </div>
+            <!-- <div class="contact__form_inner"> -->
+            <!-- <div class="contact__fn-ln"> -->
+            <input class="contact__form_item contact__input" placeholder="First name" type="text">
+            <input class="contact__form_item contact__input" placeholder="Last name" type="text">
+            <!-- </div> -->
+            <input class="contact__form_item contact__phone" placeholder="Phone number" type="tel">
+            <div class="contact__select-wrapper">
+              <select class="contact__form_item contact__select">
+                <option value="">Select service</option>
+                <option value="1">Синий</option>
+                <option value="2">Зеленый</option>
+                <option value="3">Желтый</option>
+                <option value="4">Красный</option>
+                <option value="5">Оранжевый</option>
+                <option value="6">Черный</option>
+              </select>
             </div>
+            <!-- </div> -->
             <button class="button contact__btn" type="submit">SUBMIT NOW</button>
           </form>
         </div>
@@ -284,25 +296,27 @@
             </a>
             <div class="footer__social">
               <a href="#">
-                <img src="/icons/feather-facebook.svg" alt="">
+                <img src="icons/feather-facebook.svg" alt="">
               </a>
               <a href="#">
-                <img src="/icons/feather-linkedin.svg" alt="">
+                <img src="icons/feather-linkedin.svg" alt="">
               </a>
               <a href="#">
-                <img src="/icons/feather-twitter.svg" alt="">
+                <img src="icons/feather-twitter.svg" alt="">
               </a>
             </div>
           </div>
           <div class="footer__content_item footer__support">
             <h5>We Support</h5>
-            <img src="/img/secure-p-1 1.png" alt="">
+            <img src="img/secure-p-1 1.png" alt="">
           </div>
         </div>
         <p>Copyright 2018 CloudBudget</p>
       </div>
     </div>
   </footer>
+
+  <script src="js/script.js"></script>
 </body>
 
 </html>
